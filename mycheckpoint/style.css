@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "Roboto-Black";
+  src: url("font/Roboto-Black.ttf");
+}
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("font/Roboto-Regular.ttf");
+}
+header {
+  background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(6,70,161,1) 50%, rgba(4,113,189,1) 100%);
+  color:white;
+  font-family: 'Roboto-Regular';
+  align-items: center;
+}
+header ul li a {
+  color: white;
+  font-family: 'Roboto-Regular';
+  font-size: 18px;
+}
+li a:hover {
+  background-color:  #1c0a81 !important;
+}
+
+div {
+    border: 1px solid gray;
+    padding: 8px;
+  }
+  
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #e0842d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+.info {
+display: flex;
+justify-content: space-between;
+}
+  
+ .info p {
+    letter-spacing: 3px;
+    font-family: 'Roboto-Regular';
+    width: 50%;
+    font-style: italic;
+    font-size: medium;
+    font-weight: 700;
+}
+
+  ul {
+    list-style-type: none;
+    margin : 0;
+    padding : 0;
+    overflow  : hidden;
+  }
+ 
+  
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(3, 39, 2);
+    text-align: right;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #fdfdfdf5;
+  }
+ 
+
+
+.login {
+  display:flex;
+  justify-content: space-between;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+
+}
+.signUp {
+  width: 100%;
+  text-align: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo label {
+  margin-left: 20px;
+  margin-bottom: 0px;
+}
+.block {
+  display: flex;
+  justify-content: space-between;
+  }
+    
+   .block p {
+      letter-spacing: 3px;
+      font-family: 'Roboto-Regular';
+      width: 50%;
+      font-style: italic;
+    font-size: medium;
+    font-weight: 700;
+   }
+   .signUp {
+    text-align: left;
+    text-transform: uppercase;
+    color: #e0842d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
